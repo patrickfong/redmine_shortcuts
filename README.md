@@ -6,6 +6,9 @@ Simple Redmine plugin that provides keyboard shortcuts.
 Common
 * **S** search
 * **?** open help modal
+* **M** navigate to my page
+* **P** navigate to projects
+* **I** navigate to issue index
 
 On issues index
 * **N** new issue
