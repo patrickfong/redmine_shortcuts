@@ -28,4 +28,4 @@ en:
   shortcuts_preformatted_text: Preformatted text
   shortcuts_help_goto_projects: Navigate to Projects
   shortcuts_help_goto_mypage: Navigate to My page
-  shortcuts_help_goto_issue_index: Navigate to issues index (current project)
+  shortcuts_help_goto_issue_index: Navigate to issue index (for current project)
