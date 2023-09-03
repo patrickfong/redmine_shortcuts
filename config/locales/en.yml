@@ -26,5 +26,6 @@ en:
   shortcuts_help_search: Search
   shortcuts_inline_code: Inline code
   shortcuts_preformatted_text: Preformatted text
-  shortcuts_help_projects: Navigate to Projects
-  shortcuts_help_mypage: Navigate to My page
+  shortcuts_help_goto_projects: Navigate to Projects
+  shortcuts_help_goto_mypage: Navigate to My page
+  shortcuts_help_goto_issue_index: Navigate to issues index (current project)

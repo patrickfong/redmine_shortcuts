@@ -9,6 +9,10 @@ $(document).keydown(function (e) {
         if (!e.ctrlKey && !e.altKey && !e.shiftKey && e.keyCode == 83) {
             $("#q").focus();
             e.preventDefault();
+        // I
+        } else if (e.keyCode == 73) {
+            $(location).attr('href', $('.issues').attr('href'));
+            e.preventDefault();
         // M
         } else if (e.keyCode == 77) {
             window.location.href = '/my/page';
