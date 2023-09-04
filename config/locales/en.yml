@@ -35,3 +35,4 @@ en:
   shortcuts_help_goto_issue_index: List issues (all projects)
   shortcuts_help_goto_new_issue: Create new issue (any project)
   shortcuts_help_activate_index_tab: Activate current project's issues tab
+  shortcuts_help_new_issue: New issue (current project)
