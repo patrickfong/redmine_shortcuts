@@ -7,7 +7,13 @@
   </head>
   <body>
     <h1><%= l(:shortcuts_help_title) %></h1>
-    <p><%= l(:shortcuts_help_guiding_text) %></p>
+
+    <table style="width:100%">
+      <tr><th colspan="3"><%= l(:shortcuts_help_guiding_text) %></th></tr>
+      <tr><th><td style="width:50%;">On Windows, press [Alt] + [access key]</td><td style="width:100%;"></tr>
+      <tr><th><td style="width:50%;">On Mac OS, press [Control + Option] + [access key]</td><td style="width:50%;"><%= l(:shortcuts_help_activate_index_tab) %></td></tr>
+    </table>
+
     <table style="width:100%">
       <tr><th colspan="3"><%= l(:shortcuts_help_common) %></th></tr>
       <tr><th><td style="width:50%;">S</td><td style="width:50%;"><%= l(:shortcuts_help_search) %></td></tr>
@@ -19,7 +25,7 @@
     <table style="width:100%">
       <tr><th colspan="3"><%= l(:shortcuts_help_projects) %></th></tr>
       <tr><th><td style="width:50%;">I</td><td style="width:50%;"><%= l(:shortcuts_help_activate_index_tab) %></td></tr>
-      <tr><th><td style="width:50%;">access key [7]</td><td style="width:50%;"><%= l(:shortcuts_help_activate_index_tab) %></td></tr>
+      <tr><th><td style="width:50%;">Access key [7]</td><td style="width:50%;"><%= l(:shortcuts_help_activate_index_tab) %></td></tr>
     </table>
     <table style="width:100%">
       <tr><th colspan="3"><%= l(:shortcuts_help_issue_show) %></th></tr>
