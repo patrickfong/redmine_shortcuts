@@ -6,10 +6,11 @@ en:
   shortcuts_settings_enable_help_modal: Enable help modal
   shortcuts_settings_help_link_label: Help link label
   shortcuts_help_title: Redmine Shortcuts Quick Reference
-  shortcuts_help_issue_index: Issues index
+  # Removed issues index section (shortcuts_help_issue_index)
+  shortcuts_help_projects: Projects
   shortcuts_help_issue_show: Issue show
   shortcuts_help_editor: Editor
-  shortcuts_help_new_issue: New
+  # New issue shortcut removed (shortcuts_help_new_issue)
   shortcuts_help_copy_issue: Copy
   shortcuts_help_delete_issue: Delete
   shortcuts_help_edit_issue: Edit
@@ -28,8 +29,9 @@ en:
   shortcuts_preformatted_text: Preformatted text
 
   # New common shortcut keys 
+  shortcuts_help_guiding_text: Use [Alt] on Windows or [Control + Option] on Mac to activate the access key
   shortcuts_help_goto_mypage: Go to My page
   shortcuts_help_goto_projects: Go to Projects
-  shortcuts_help_activate_index_tab: Activate current project's issues tab
-  shortcuts_help_goto_new_issue: Create new issue (any project)
   shortcuts_help_goto_issue_index: List issues (all projects)
+  shortcuts_help_goto_new_issue: Create new issue (any project)
+  shortcuts_help_activate_index_tab: Activate current project's issues tab
