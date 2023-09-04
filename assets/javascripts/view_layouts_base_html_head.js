@@ -15,11 +15,11 @@ $(document).keydown(function (e) {
             e.preventDefault();
         // K
         } else if (e.keyCode == 75) {
-            window.location.href = 'https://proj.fongfamily.ca/issues/new';
+            window.location.href = '/issues/new';
             e.preventDefault();
         // L
         } else if (e.keyCode == 76) {
-            window.location.href = 'https://proj.fongfamily.ca/issues';
+            window.location.href = '/issues';
             e.preventDefault();
         // M
         } else if (e.keyCode == 77) {
