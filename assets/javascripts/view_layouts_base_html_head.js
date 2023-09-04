@@ -13,6 +13,14 @@ $(document).keydown(function (e) {
         } else if (e.keyCode == 73) {
             $(location).attr('href', $('.issues').attr('href'));
             e.preventDefault();
+        // K
+        } else if (e.keyCode == 75) {
+            window.location.href = 'https://proj.fongfamily.ca/issues/new';
+            e.preventDefault();
+        // L
+        } else if (e.keyCode == 76) {
+            window.location.href = 'https://proj.fongfamily.ca/issues';
+            e.preventDefault();
         // M
         } else if (e.keyCode == 77) {
             window.location.href = '/my/page';
