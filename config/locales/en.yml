@@ -29,7 +29,7 @@ en:
   shortcuts_preformatted_text: Preformatted text
 
   # New common shortcut keys 
-  shortcuts_help_guiding_text: To use access key shortcuts
+  shortcuts_help_access_key: To use access key shortcuts
   shortcuts_help_goto_mypage: Go to My page
   shortcuts_help_goto_projects: Go to Projects
   shortcuts_help_goto_issue_index: List issues (all projects)
