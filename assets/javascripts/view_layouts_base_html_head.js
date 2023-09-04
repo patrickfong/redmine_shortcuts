@@ -13,8 +13,8 @@ $(document).keydown(function (e) {
         } else if (e.keyCode == 73) {
             $(location).attr('href', $('.issues').attr('href'));
             e.preventDefault();
-        // K
-        } else if (e.keyCode == 75) {
+        // J
+        } else if (e.keyCode == 74) {
             window.location.href = '/issues/new';
             e.preventDefault();
         // L

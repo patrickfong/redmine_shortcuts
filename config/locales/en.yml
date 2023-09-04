@@ -26,6 +26,10 @@ en:
   shortcuts_help_search: Search
   shortcuts_inline_code: Inline code
   shortcuts_preformatted_text: Preformatted text
-  shortcuts_help_goto_projects: Navigate to Projects
-  shortcuts_help_goto_mypage: Navigate to My page
-  shortcuts_help_goto_issue_index: Activate issues tab
+
+  # New common shortcut keys 
+  shortcuts_help_goto_mypage: Go to My page
+  shortcuts_help_goto_projects: Go to Projects
+  shortcuts_help_activate_index_tab: Activate current project's issues tab
+  shortcuts_help_goto_new_issue: Create new issue (any project)
+  shortcuts_help_goto_issue_index: List issues (all projects)
