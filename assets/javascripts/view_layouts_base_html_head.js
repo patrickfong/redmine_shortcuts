@@ -13,10 +13,6 @@ $(document).keydown(function (e) {
         } else if (e.keyCode == 73) {
             $(location).attr('href', $('.issues').attr('href'));
             e.preventDefault();
-        // J
-        } else if (e.keyCode == 74) {
-            window.location.href = '/issues/new';
-            e.preventDefault();
         // L
         } else if (e.keyCode == 76) {
             window.location.href = '/issues';
@@ -24,6 +20,10 @@ $(document).keydown(function (e) {
         // M
         } else if (e.keyCode == 77) {
             window.location.href = '/my/page';
+            e.preventDefault();
+        // N
+        } else if (e.keyCode == 78) {
+            window.location.href = '/issues/new';
             e.preventDefault();
         // P
         } else if (e.keyCode == 80) {
